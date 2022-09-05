@@ -8,8 +8,8 @@ COPY rds_connect.py ${LAMBDA_TASK_ROOT}
 # from your project folder.
 
 #Set Environ value for RDS
-ENV RDS_ENDPOINT rds-cocudeny.cidsblwezpmk.ap-northeast-2.rds.amazonaws.com
-ENV USERNAME cocudeny
+ENV RDS_ENDPOINT ai-rds.cdfnd5ogvaqo.ap-northeast-2.rds.amazonaws.com
+ENV USERNAME brokurly
 ENV PASSWORD Kosa0401!
 ENV DB_NAME item_ingredients
 ENV TABLE_NAME Item
